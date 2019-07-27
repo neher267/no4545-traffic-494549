@@ -1,0 +1,74 @@
+/*-----------------------------------------------------------------------------------
+
+    Author: Neher Halder
+    Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+html {
+ 	scroll-behavior: smooth;
+}
+
+.uc {
+	text-transform: uppercase;
+}
+
+.pr-5{
+	padding-right: 5px;
+}
+
+.about-area-plc {
+	background-size: 100% 100%;
+}
+
+.about-area1 a{
+	background: #b71c1c;
+}
+
+.mainmenu ul#nav > li > a {
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+.footer-widget-area {
+    background: #2d5930 none repeat scroll 0 0;
+}
+
+.mbbs  th{
+	background-color: #b71c1c ;
+	color: #fff;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.single-item-text h4{
+	text-align: center;
+}
+
+#grad1 {
+  padding: 170px 0px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, green); /* Standard syntax (must be last) */
+  color: #fff;
+}
+
+.devider{
+	border-bottom: 2px solid #fff;
+	width: 250px;
+	margin: auto;	
+}
+.mbbs{
+  	width: 80%;
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.mbbs{width: 100%}
+	.mobile{font-size: 9px}
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	.mbbs{width: 100%}
+	.mobile{font-size: 9px}}

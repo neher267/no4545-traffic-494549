@@ -1,0 +1,351 @@
+input[type="file"] {
+    font-family: Arial, sans-serif;
+    height: auto;
+}
+
+.pb-8 {
+    padding-bottom: 8px;
+}
+
+.fonts{
+    font-family: Roboto, Arial, sans-serif;
+    color: #161616;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    background-color: #fff;
+}
+
+.abcd {
+        color: #003c75;
+        margin-left: 40px;
+        margin-top: 9px;
+    }
+.ions {
+    position: absolute; 
+    top: 0px; 
+    /*left: 0px; */
+    width: 34px;
+    height: 34px;
+    color: #FFF;
+    font-size: 24px; 
+    line-height: 34px;
+    text-align: center;
+    background-color: #003c75;
+    border-radius: 3px;
+}
+
+
+.my-card{
+
+}
+
+.sep-border-shadow {
+    height: 25px;
+    background: url(https://www.livewireindia.com/images/bg-sep-border-shadow.png) no-repeat top center;
+    background-size: 100%;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 38px;
+}
+h1, h2, h3, h4 {
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, Arial, sans-serif;
+    color: #303030;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.details-fonts{
+    font-family: "Lato", Helvetica, sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    color: #404040;    
+}
+
+.div-height{
+    min-height: 68%;
+}
+
+.details-heading{
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #404040;
+}
+
+.details-title{
+    font-size: 20px;
+    font-weight: bold;
+    /*color: #555;  */
+}
+
+
+
+
+.fa-icon{
+    margin-right: 3px;
+    color: green;
+}
+
+.page-title{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e6e9ed;
+    text-align: center;    
+    color: green;
+    font-size: 25px;
+}
+
+.control-label{
+    padding-top: 0px;
+}
+
+.service-section{
+    padding: 35px;
+    background-color: #f15c87;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+.service-container{
+    text-align: center;
+}
+
+.service{
+    padding: 10px;
+}
+
+.service-title{
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    min-height: 44px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.service-des{
+    font-size: 14px;
+    height: 75px;
+}
+
+.divider{
+    background-color: #6C91C2;
+    margin-top: 5px;
+}
+
+.color1{
+    background-color: #F2756D;
+    color: #FBF5F3;
+}
+
+.color2{
+    background-color: #FFF;
+    color: #000;
+}
+
+.color3{
+    background-color: #6BBAAE;
+    color: #FBF5F3;
+}
+
+.color4{
+    background-color: #72E578;
+    color: #363537;
+}
+
+.color5{
+background-color: #E5DBAC;
+    color: #584D3D;   
+    
+}
+
+.color6{
+    background-color: #48ACE2;
+    color: #FDFFFC;
+}
+
+.color7{
+    background-color: #EFC340;
+    color: #321325;
+}
+
+.color8{
+    background-color: #2B617C;
+    color: #F2EFEA;
+}
+
+.color9{
+    background-color: #8a3b76;
+}
+.color10{
+    background-color: #e5e5e5;
+}
+.color11{
+    background-color: #e5e5e5;
+}
+
+.boxn{
+    height: 240px;
+    padding-top: 30px;
+}
+
+.l-half{
+    float: left;
+    width: 45%
+}
+.r-half{
+    float: left;
+    width: 45%
+}
+
+.circle{
+    height: 180px;
+    width: 180px;   
+    background-color: #f15c87;
+    border-radius: 50%;
+    float: right;
+    -webkit-animation-name: backgroung; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: backgroung;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.circle:hover {
+    animation-play-state: paused;
+}
+
+.service-img{
+    width: 100%; 
+    height: 190px; 
+    vertical-align: middle; 
+    opacity: 0.75;
+}
+.service-img:hover{
+    opacity: 1.0;
+}
+
+.boxn-text{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.boxn-icon {
+    font-size: 75px;
+    color: white;
+    position: relative;
+    top: 29%;
+    left: 30%;
+}
+
+.boxn-content{
+    text-align: left;
+    padding-top: 13%;
+    padding-left: 15px;
+    color: #333;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes backgroung {
+    0%   {background-color: #f15c87;}
+    33%   {background-color: #6ff4be;}
+    66%   {background-color: #106945;}
+    100%  {background-color: #f15c87;}
+}
+
+/* Standard syntax */
+@keyframes backgroung {
+    0%   {background-color: #f15c87;}
+    33%   {background-color: #6ff4be;}
+    66%   {background-color: #106945;}
+    100%  {background-color: #f15c87;}
+}
+
+
+#navigation .navbar-logo1 {
+    float: right;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.sec {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    min-width: 500px;
+    margin-top: 20px;
+}
+
+.cla {
+    /*background: rgba(255, 255, 255, 0.8);*/
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1em;
+    height: 3em;
+    width: 33.334%;
+    box-shadow: 0px 0px 0px 1px #1e4c91;
+    border: 1px solid #1e4c91;
+    transition: all linear 0.1s;
+    animation: animate 0.5s linear;
+    margin-left: 35%
+}
+
+.cla:hover {
+    border: 1.5px solid #7d9ccb;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.20), 0 15px 20px rgba(0, 0, 0, 0.12);
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .sec {
+        flex-direction: column;
+    }
+    .cla {
+        margin-left: 20%;
+    }
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar1 {
+    margin-bottom: 0px;
+}
+.carder {
+    text-align: left;
+}
+
+.centered-form {
+    margin-top: 60px;
+}
+
+.centered-form .panel {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+

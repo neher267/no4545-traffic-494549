@@ -2,6 +2,9 @@
 
 namespace App\Providers;
 
+use App\Events\User\UserLogedIn;
+use App\Listeners\User\SendEmailToSuperAdmin;
+use App\Listeners\User\SendEmailToUser;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
@@ -18,6 +21,12 @@ class EventServiceProvider extends ServiceProvider
         Registered::class => [
             SendEmailVerificationNotification::class,
         ],
+        UserLogedIn::class => [
+            SendEmailToSuperAdmin::class,
+            SendEmailToUser::class,
+        ],
+
+
     ];
 
     /**
@@ -31,4 +40,7 @@ class EventServiceProvider extends ServiceProvider
 
         //
     }
+
+
+
 }
